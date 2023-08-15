@@ -1,0 +1,47 @@
+.kuti{
+    background-image: linear-gradient(rgb(216, 229, 230),rgb(172, 185, 235));
+    width: 500px;
+    height: 500px;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 5px gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 400px;
+    border-radius: 15px;
+    text-align: center;
+    top: 50px;
+
+}
+
+h1{
+    margin-bottom: 100px;
+}
+
+.kuti input{
+    height: 35px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border: 2px solid gray;
+}
+
+
+button{
+    width: 40px;
+    height: 45px;
+    background-color: rgb(119, 135, 182);
+    font-size: 30px;
+    font-weight: 800px;
+    box-shadow: 2px 3px 4px gray;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+
+button:hover{
+    background-color: rgb(193, 150, 232);
+}
